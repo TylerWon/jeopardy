@@ -1,0 +1,22 @@
+{
+  "Contestants": [
+    {
+      "Name": "Tyler",
+      "Earnings": 0,
+      "Total questions answered": 0,
+      "Questions answered correctly": 0,
+      "Categories picked": {}
+    },
+    {
+      "Name": "Connor",
+      "Earnings": 1000,
+      "Total questions answered": 2,
+      "Questions answered correctly": 2,
+      "Categories picked": {
+        "IN ORDER": 1,
+        "CORPORATE LINGO": 2
+      }
+    }
+  ],
+  "Categories": {}
+}

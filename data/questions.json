@@ -1,0 +1,642 @@
+{
+  "BILLBOARD TOP 40": [
+    {
+      "Question": "Madonna touched No. 1 on the Billboard Top 40 for the very first time with this 1984 song",
+      "Answer": "Like a Virgin",
+      "Reward": 200,
+      "DailyDouble": true
+    },
+    {
+      "Question": "Hey Ya! by this duo spent about 30 weeks in the Top 40 in 2003 & 2004",
+      "Answer": "Outkast",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Rockstar by him featuring Roddy Ricch topped the Billboard charts in July 2020",
+      "Answer": "Dababy",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "ABBA had 14 songs on the Billboard chart but only this disco-themed one made it to No. 1",
+      "Answer": "Dancing Queen",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Weird Al Yankovic made a foray into the Top 40 with this Michael Jackson parody",
+      "Answer": "Eat It",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "U.S. CITY SIGHTS": [
+    {
+      "Question": "Starbucks Reserve Roastery & Tasting Room Kurt Cobain's benches in Viretta Park",
+      "Answer": "Seattle",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Delta Flight Museum Centennial Olympic Park",
+      "Answer": "Atlanta",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The Mary Tyler Moore statue the Purple Rain house",
+      "Answer": "Minneapolis",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Riverwalk Alamo Heights Bark Park",
+      "Answer": "San Antonio",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Carnegie Science Center Duquesne Incline\n",
+      "Answer": "Pittsburgh",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "NUMBERS OF THINGS": [
+    {
+      "Question": "Added in 1971 No. 26 of the 27 amendments to the Constitution set this at 18",
+      "Answer": "the voting age",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The 9 Greek goddesses known as Muses included Melpomene & Thalia patrons of these 2 types of drama symbolized by masks",
+      "Answer": "tragedy and comedy",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This septet includes the Mausoleum at Halicarnassus",
+      "Answer": "the seven Wonders of the World",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "It's the number of squares on a checkerboard",
+      "Answer": "64",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Hesiod said this beast had 50 heads not 3 & Hercules' final labor of 12 was to bring it from the underworld up to the surface",
+      "Answer": "Cerberus",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "IN ORDER": [
+    {
+      "Question": "Someone who accomplishes things",
+      "Answer": "a doer",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Fish ova",
+      "Answer": "roe",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Morgan Freeman played him in The Shawshank Redemption",
+      "Answer": "Red",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Chalcocite is one",
+      "Answer": "an ore",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A canal links this river with the Vistula",
+      "Answer": "the Oder",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "CORPORATE LINGO": [
+    {
+      "Question": "In baseball you do this to avoid being thrown out as a runner; in meetings it means to follow up with a person",
+      "Answer": "touch base",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In biology it's all the diverse organisms in a location; in business it's all the parts of an industry",
+      "Answer": "an ecosystem",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "You can do this to change songs on a record or in business to generate a desired reaction or change the outcome",
+      "Answer": "move the needle",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A printing term for an image that pushes past the margin is this edge more innovative than cutting edge",
+      "Answer": "bleeding edge",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This adjective describes a mountain that can be climbed or a company that can handle increased sales or workload",
+      "Answer": "scalable",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "ALL THAT": [
+    {
+      "Question": "Robert Frost wrote about Mending one",
+      "Answer": "a wall",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "These items will keep certain insects from getting to your clothes",
+      "Answer": "mothballs",
+      "Reward": 400,
+      "DailyDouble": true
+    },
+    {
+      "Question": "From Old Norse for shriek it's an angry storm at sea",
+      "Answer": "a squall",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Another word for bile it refers to impudent brazenness",
+      "Answer": "gall",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This compound word refers to unexpected profits",
+      "Answer": "windfall",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "IT'S A FACT": [
+    {
+      "Question": "A bolide is a bright one of these outer space objects that explodes in the atmosphere",
+      "Answer": "a meteor",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Citing fire risks in 2016 the FAA banned this company's Galaxy Note 7 phones from all U.S. flights",
+      "Answer": "Samsung",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The Tomb is the clubhouse of this Yale secret society",
+      "Answer": "the Skull of Bones",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "David Farragut who won the 1864 Battle of Mobile Bay was the first American officer to be given the rank of full this",
+      "Answer": "admiral",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "To get you into this 5-letter organization of smarties your IQ has to be in the top 2% of the population",
+      "Answer": "Mensa",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "DO YOUR JOB": [
+    {
+      "Question": "Collective term for the workers on a ship or a television show",
+      "Answer": "a crew",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "At any given time Google has hundreds of jobs open in I.T. short for this",
+      "Answer": "information technology",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A pilot is the person controlling an aircraft or in the case of the book Life on the Mississippi one of these",
+      "Answer": "a steamboat",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "It's a medical practitioner who specializes in the treatment & prevention of diseases of the foot",
+      "Answer": "a podiatrist",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Not taking risks but calculating risks & setting premiums is the job of actuaries who mostly work in this industry",
+      "Answer": "insurance",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "PLATFORMS": [
+    {
+      "Question": "Many an old-time hobo song includes a lyric about standing on a platform waiting for one of these",
+      "Answer": "a train",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Platform shoes often have the heel thicker than the rest of the shoe; change the P in platform to get this more level style",
+      "Answer": "flatform",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "4-letter word for the raised platform for the head table & speakers at a banquet",
+      "Answer": "dais",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "It's the 5-letter word for a principle in a party's platform such as we must raise tariffs! or we must lower tariffs!",
+      "Answer": "plank",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In olden times it was the elevated platform covered with straw used for a beheading",
+      "Answer": "scaffold",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "HISTORIC LASTS": [
+    {
+      "Question": "Taken prisoner only briefly in 1979 after the Islamic revolution William Sullivan was the last U.S. ambassador to this country",
+      "Answer": "Iran",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In 1944 Jane Yorke was Britain's last woman convicted under the act named for this activity of summoning spirits & demons",
+      "Answer": "witchcraft",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Seen here in 1963 are the last residents of this San Francisco site as they leave for their next federal accommodations",
+      "Answer": "Alcatraz",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "After hearing the emperor's surrender message Matome Ugaki led the last of these suicide attacks of World War II",
+      "Answer": "kamikaze",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In 1720 a ship owner evaded quarantine in this southern French port & Europe got its last major bubonic plague outbreak",
+      "Answer": "Marseille",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "ALLUSIVE TITLES": [
+    {
+      "Question": "John Steinbeck lifted the title of this novel from The Battle Hymn Of The Republic",
+      "Answer": "The Grapes of Wrath",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Thomas Gray's line far from the madding crowd's ignoble strife gave this Thomas an 1874 novel title",
+      "Answer": "Thomas Hardy",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Milton's Unless the almighty maker them ordain / His dark materials to create more worlds inspired the title of a trilogy by him",
+      "Answer": "Philip Pullman",
+      "Reward": 600,
+      "DailyDouble": true
+    },
+    {
+      "Question": "This Shakespeare play provided Agatha Christie with by the pricking of my thumbs",
+      "Answer": "Macbeth",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Chinua Achebe's Things Fall Apart takes its title from this man's poem The Second Coming",
+      "Answer": "William Butler Yeats",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "FURNITURE STUFF": [
+    {
+      "Question": "Names for stools include counter bar & this 3-letter synonym for bar",
+      "Answer": "a pub stool",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The king mattress named for this U.S. state measures 72 wide by 84 long",
+      "Answer": "California",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This alliterative bookcase with glass or wooden doors is named for a type of British lawyer",
+      "Answer": "a barrister",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Two sets of double letters end the name of this smallish sofa",
+      "Answer": "a settee",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This free-standing cupboard has an Italian name",
+      "Answer": "credenza",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "A BUSY BODY": [
+    {
+      "Question": "It's just 3 to 4 inches long & seems to be gradually disappearing through evolution but when it gets blocked it can still kill you",
+      "Answer": "the appendix",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The thinking part of the brain it accounts for about 85% of the brain's weight",
+      "Answer": "the cerebrum",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The trochlea a spool-shaped surface in this bone articulates with the ulna & that's no joke",
+      "Answer": "the humerus",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Blockage of these neck arteries that bring blood to your brain can lead to stroke",
+      "Answer": "the carotid artery",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Chronic alcohol drinking is a big cause of this disease but it can also occur due to obesity or hepatitis C",
+      "Answer": "cirrhosis",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "ABANDONED PLACES": [
+    {
+      "Question": "The ancient town of Craco in this country's boot was abandoned after a 1980 earthquake",
+      "Answer": "Italy",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Home to one of Japan's major mines for this fuel Battleship Island was abandoned in the 1970s when the supply petered out",
+      "Answer": "coal",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "The Exclusion Zone created after this 1986 event covers some 1600 square miles & you should still keep out",
+      "Answer": "Chernobyl",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Once a glamorous resort Varosha on this island has been off-limits since 1974 fighting between Greeks & Turks",
+      "Answer": "Cyprus",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A station for hunting these at Grytviken on South Georgia has been abandoned for decades & that's fine with us",
+      "Answer": "whales",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "BOOKS BY SUBTITLE": [
+    {
+      "Question": "2006: An Oral History of the Zombie War",
+      "Answer": "World War Z",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "1995: The Life and Times of a certain Wizard of Oz character",
+      "Answer": "Wicked",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "2005: Life and Love with the World's Worst Dog",
+      "Answer": "Marley & Me",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "2012: From Lost to Found on the Pacific Crest Trail",
+      "Answer": "Wild",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "1877: The Autobiography of a Horse",
+      "Answer": "Black Beauty",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "MOVIE BIOS": [
+    {
+      "Question": "2005: Joaquin Phoenix as this country music sensation",
+      "Answer": "Johnny Cash",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "2000: Ed Harris as this drip painter",
+      "Answer": "Jackson Pollock",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In The Motorcycle Diaries: Gael Garcia Bernal as this revolutionary",
+      "Answer": "Che Guevara",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "1993: Liam Neeson as this German industrialist who saved Jews during World War II",
+      "Answer": "Oskar Schindler",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In 12 Years a Slave: Chiwetel Ejiofor as this free Black man sold into slavery",
+      "Answer": "Solomon Northup",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "WHAT THE BLANK?": [
+    {
+      "Question": "Literally it's a bank draft that is signed but with the amount left empty",
+      "Answer": "a blank check",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Standard versions of this board game have 2 blank tiles that can be any letter but are worth zero points",
+      "Answer": "scrabble",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This phrase meaning to be failed by your memory probably comes from a lottery where losing tickets had nothing written on them",
+      "Answer": "draw a blank",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A documentary about this game show hosted by Gene Rayburn & later Alec Baldwin is subtitled Behind the Blank",
+      "Answer": "match game",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "John Milton used this unrhymed pentameter in Paradise Lost",
+      "Answer": "blank verse",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "THEY DID IT": [
+    {
+      "Question": "Won a fourth term as German chancellor in 2017",
+      "Answer": "Angela Merkel",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Brought a team of nurses to the Crimean War on a mail boat",
+      "Answer": "Nightingale",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Won a coin flip with David Packard for top billing",
+      "Answer": "Hewlett",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "In 1839 he showed his photos to the French Academy of Sciences",
+      "Answer": "Louis Daguerre",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Wrote The Normal Heart fought for AIDS research",
+      "Answer": "Larry Kramer",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "PROSE BY BROS": [
+    {
+      "Question": "Jacob & Wilhelm who gave us Snow White & The Golden Goose",
+      "Answer": "the Brothers Grimm",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Rod short story collections as well as The Twilight Zone; Richard The President's Plane is Missing",
+      "Answer": "Serling",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Twins Matt & Ross Emmy-nominated for writing Chapter Nine: The Gate for the television show Stranger Things",
+      "Answer": "the Duffer Brothers",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Henry Roderick Hudson in 1876; William Essays in Radical Empiricism published posthumously in 1912",
+      "Answer": "James",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Frank the 2005 memoir Teacher Man; Malachy who wrote A Couple of Blaguards with his brother",
+      "Answer": "Mccourt",
+      "Reward": 1000,
+      "DailyDouble": false
+    }
+  ],
+  "MUSIC VENUES": [
+    {
+      "Question": "This home of the Rockettes is known as the Showplace of the Nation",
+      "Answer": "Radio City Music Hall",
+      "Reward": 200,
+      "DailyDouble": false
+    },
+    {
+      "Question": "A frieze called The Triumph of Arts & Letters adorns this Royal London venue",
+      "Answer": "the Royal Albert Hall",
+      "Reward": 400,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Here's the geological beauty that makes up this outdoor venue in Colorado",
+      "Answer": "Red Rocks",
+      "Reward": 600,
+      "DailyDouble": false
+    },
+    {
+      "Question": "Early in his career Elton John performed at this legendary L.A. club whose name is a synonym for a lyric poet",
+      "Answer": "the Troubadour",
+      "Reward": 800,
+      "DailyDouble": false
+    },
+    {
+      "Question": "This cafe in a Nashville strip mall is famous for hosting an open mic night on Mondays",
+      "Answer": "the Bluebird Cafe",
+      "Reward": 1000,
+      "DailyDouble": true
+    }
+  ]
+}

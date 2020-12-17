@@ -1,0 +1,165 @@
+{
+  "Contestants": [],
+  "Categories": {
+    "IN ORDER": [
+      {
+        "Answer": "a doer",
+        "DailyDouble": false,
+        "Question": "Someone who accomplishes things",
+        "Reward": 200
+      },
+      {
+        "Answer": "roe",
+        "DailyDouble": false,
+        "Question": "Fish ova",
+        "Reward": 400
+      },
+      {
+        "Answer": "red",
+        "DailyDouble": false,
+        "Question": "Morgan Freeman played him in The Shawshank Redemption",
+        "Reward": 600
+      },
+      {
+        "Answer": "an ore",
+        "DailyDouble": false,
+        "Question": "Chalcocite is one",
+        "Reward": 800
+      },
+      {
+        "Answer": "the oder",
+        "DailyDouble": true,
+        "Question": "A canal links this river with the Vistula",
+        "Reward": 1000
+      }
+    ],
+    "THE DOCTOR WILL C YOU NOW": [
+      {
+        "Answer": "colorblindness",
+        "DailyDouble": false,
+        "Question": "Christmas must be a bummer for you having this condition & not being able to distinguish between red & green",
+        "Reward": 200
+      },
+      {
+        "Answer": "cramps",
+        "DailyDouble": false,
+        "Question": "Try stretching if you suffer these like Rafael Nadal did at the 2011 U.S. Open including at a press conference",
+        "Reward": 400
+      },
+      {
+        "Answer": "a cochlear implant",
+        "DailyDouble": true,
+        "Question": "What's that I say? You need this type of implant in your inner ear that directly stimulates the hearing nerve",
+        "Reward": 600
+      },
+      {
+        "Answer": "cholesterol",
+        "DailyDouble": false,
+        "Question": "Found in the liver it helps make vitamin D; hope you have a lot more good than bad!",
+        "Reward": 800
+      },
+      {
+        "Answer": "calluses",
+        "DailyDouble": false,
+        "Question": "When looking at areas of thickened skin on your feet these are larger & more shapeless than corns",
+        "Reward": 1000
+      }
+    ],
+    "NUMBERS OF THINGS": [
+      {
+        "Answer": "the voting age",
+        "DailyDouble": false,
+        "Question": "Added in 1971 No. 26 of the 27 amendments to the Constitution set this at 18",
+        "Reward": 200
+      },
+      {
+        "Answer": "tragedy and comedy",
+        "DailyDouble": false,
+        "Question": "The 9 Greek goddesses known as Muses included Melpomene & Thalia patrons of these 2 types of drama symbolized by masks",
+        "Reward": 400
+      },
+      {
+        "Answer": "the seven wonders of the world",
+        "DailyDouble": false,
+        "Question": "This septet includes the Mausoleum at Halicarnassus",
+        "Reward": 600
+      },
+      {
+        "Answer": "64",
+        "DailyDouble": false,
+        "Question": "It's the number of squares on a checkerboard",
+        "Reward": 800
+      },
+      {
+        "Answer": "Cerberus",
+        "DailyDouble": false,
+        "Question": "Hesiod said this beast had 50 heads not 3 & Hercules' final labor of 12 was to bring it from the underworld up to the surface",
+        "Reward": 1000
+      }
+    ],
+    "CORPORATE LINGO": [
+      {
+        "Answer": "touch base",
+        "DailyDouble": false,
+        "Question": "In baseball you do this to avoid being thrown out as a runner; in meetings it means to follow up with a person",
+        "Reward": 200
+      },
+      {
+        "Answer": "an ecosystem",
+        "DailyDouble": false,
+        "Question": "In biology it's all the diverse organisms in a location; in business it's all the parts of an industry",
+        "Reward": 400
+      },
+      {
+        "Answer": "move the needle",
+        "DailyDouble": false,
+        "Question": "You can do this to change songs on a record or in business to generate a desired reaction or change the outcome",
+        "Reward": 600
+      },
+      {
+        "Answer": "bleeding edge",
+        "DailyDouble": true,
+        "Question": "A printing term for an image that pushes past the margin is this edge more innovative than cutting edge",
+        "Reward": 800
+      },
+      {
+        "Answer": "scalable",
+        "DailyDouble": false,
+        "Question": "This adjective describes a mountain that can be climbed or a company that can handle increased sales or workload",
+        "Reward": 1000
+      }
+    ],
+    "BILLBOARD TOP 40": [
+      {
+        "Answer": "like a virgin",
+        "DailyDouble": false,
+        "Question": "Madonna touched No. 1 on the Billboard Top 40 for the very first time with this 1984 song",
+        "Reward": 200
+      },
+      {
+        "Answer": "outkast",
+        "DailyDouble": false,
+        "Question": "Hey Ya! by this duo spent about 30 weeks in the Top 40 in 2003 & 2004",
+        "Reward": 400
+      },
+      {
+        "Answer": "dababy",
+        "DailyDouble": false,
+        "Question": "Rockstar by him featuring Roddy Ricch topped the Billboard charts in July 2020",
+        "Reward": 600
+      },
+      {
+        "Answer": "dancing queen",
+        "DailyDouble": false,
+        "Question": "ABBA had 14 songs on the Billboard chart but only this disco-themed one made it to No. 1",
+        "Reward": 800
+      },
+      {
+        "Answer": "eat it",
+        "DailyDouble": false,
+        "Question": "Weird Al Yankovic made a foray into the Top 40 with this Michael Jackson parody",
+        "Reward": 1000
+      }
+    ]
+  }
+}
