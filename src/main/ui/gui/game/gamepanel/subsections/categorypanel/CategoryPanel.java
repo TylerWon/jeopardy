@@ -276,7 +276,7 @@ public class CategoryPanel extends JPanel {
             button.setEnabled(false);
             container.setVisible(false);
 
-            frame.add(new QuestionPanel(frame, CategoryPanel.this, container, game, category, question, picker));
+            frame.add(new QuestionPanel(frame, container, game, category, question, picker));
         }
     }
 }

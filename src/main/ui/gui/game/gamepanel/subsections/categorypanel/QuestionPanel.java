@@ -32,7 +32,6 @@ public class QuestionPanel extends JPanel {
     private JPanel centerPanel;
     private JPanel southPanel;
     private KeyListener keyListener;
-    private JPanel container;
     private GamePanel parentContainer;
     private JFrame frame;
 
@@ -42,9 +41,9 @@ public class QuestionPanel extends JPanel {
     private Contestant picker;
 
     // EFFECTS: constructs a new question panel which displays the question chosen by the user
-    public QuestionPanel(JFrame frame, JPanel container, GamePanel parentContainer, Game game,
+    public QuestionPanel(JFrame frame, GamePanel parentContainer, Game game,
                          Category category, Question question, Contestant picker) {
-        initializeFields(frame, container, parentContainer, game, category, question, picker);
+        initializeFields(frame, parentContainer, game, category, question, picker);
         initializeGraphics();
         addCenterPanel();
         addSouthPanel();
@@ -52,11 +51,10 @@ public class QuestionPanel extends JPanel {
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(JFrame frame, JPanel container, GamePanel parentContainer, Game game,
+    private void initializeFields(JFrame frame, GamePanel parentContainer, Game game,
                                   Category category, Question question, Contestant picker) {
 
         this.frame = frame;
-        this.container = container;
         this.parentContainer = parentContainer;
         this.game = game;
         this.category = category;
