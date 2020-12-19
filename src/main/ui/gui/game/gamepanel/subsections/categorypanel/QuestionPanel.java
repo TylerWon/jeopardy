@@ -185,12 +185,38 @@ public class QuestionPanel extends JPanel {
                 evaluateAnswer(contestant);
 
             } else if (e.getKeyChar() == 'n') {
-                Contestant contestant = game.getContestant(2);
-                evaluateAnswer(contestant);
+                try {
+                    Contestant contestant = game.getContestant(2);
+                    evaluateAnswer(contestant);
+                } catch (IndexOutOfBoundsException exp) {
+                    displayContestantNotInGameDialog(game.numberOfContestants());
+                }
 
             } else if (e.getKeyChar() == 'l') {
-                Contestant contestant = game.getContestant(3);
-                evaluateAnswer(contestant);
+                try {
+                    Contestant contestant = game.getContestant(3);
+                    evaluateAnswer(contestant);
+                } catch (IndexOutOfBoundsException exp) {
+                    displayContestantNotInGameDialog(game.numberOfContestants());
+                }
+            }
+        }
+
+        // EFFECTS: notifies the user that contestant is not in game
+        private void displayContestantNotInGameDialog(int numOfPlayers) {
+            if (numOfPlayers == 2) {
+                JOptionPane.showMessageDialog(QuestionPanel.this,
+                        "Contestant 1 press 'a' to answer."
+                                + "\nContestant 2 press 'c' to answer.",
+                        "Error!",
+                        JOptionPane.PLAIN_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(QuestionPanel.this,
+                        "Contestant 1 press 'a' to answer."
+                                + "\nContestant 2 press 'c' to answer."
+                                + "\nContestant 3 press 'n' to answer.",
+                        "Error!",
+                        JOptionPane.PLAIN_MESSAGE);
             }
         }
 
