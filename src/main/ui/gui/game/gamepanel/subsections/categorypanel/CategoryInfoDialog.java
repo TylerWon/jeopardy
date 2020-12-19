@@ -14,20 +14,20 @@ public class CategoryInfoDialog {
 
     private JPanel dialogPanel;
     private JPanel centerDialogPanel;
-    private CategoryPanel container;
+    private JPanel parentContainer;
 
     private Category category;
 
     // EFFECTS: constructs a dialog which displays the answered questions for category
-    public CategoryInfoDialog(CategoryPanel container, Category category) {
-        initializeFields(container, category);
+    public CategoryInfoDialog(JPanel parentContainer, Category category) {
+        initializeFields(parentContainer, category);
         displayDialog();
     }
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(CategoryPanel container, Category category) {
-        this.container = container;
+    private void initializeFields(JPanel parentContainer, Category category) {
+        this.parentContainer = parentContainer;
         this.category = category;
     }
 
@@ -35,7 +35,7 @@ public class CategoryInfoDialog {
     // EFFECTS: displays the dialog
     private void displayDialog() {
         createDialogPanel();
-        JOptionPane.showOptionDialog(container.getContainer(),
+        JOptionPane.showOptionDialog(parentContainer,
                                      dialogPanel,
                                      category.getName(),
                                      JOptionPane.DEFAULT_OPTION,

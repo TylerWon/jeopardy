@@ -3,7 +3,6 @@ package ui.gui.game.gamepanel;
 import model.Category;
 import model.Contestant;
 import model.Game;
-import ui.gui.game.GameFrame;
 import ui.gui.game.gamepanel.subsections.ContestantInfoPanel;
 import ui.gui.game.gamepanel.subsections.QuitDialog;
 import ui.gui.game.gamepanel.subsections.categorypanel.CategoryPanel;
@@ -23,14 +22,14 @@ public class GamePanel extends JPanel {
     private JPanel northPanel;
     private JPanel centerPanel;
     private JPanel southPanel;
-    private GameFrame frame;
+    private JFrame frame;
 
     private Game game;
     private Contestant picker;
     private Random random;
 
     // EFFECTS: constructs a panel which displays the game
-    public GamePanel(GameFrame frame, Game game) {
+    public GamePanel(JFrame frame, Game game) {
         super();
         initializeFields(frame, game);
         initializeGraphics();
@@ -42,7 +41,7 @@ public class GamePanel extends JPanel {
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(GameFrame frame, Game game) {
+    private void initializeFields(JFrame frame, Game game) {
         this.frame = frame;
         this.game = game;
         random = new Random();
@@ -102,7 +101,7 @@ public class GamePanel extends JPanel {
     // EFFECTS: adds the game board (categories and questions) to the center panel
     private void addGameboard() {
         for (Category c : game.getCategories()) {
-            CategoryPanel categoryPanel = new CategoryPanel(this, c);
+            CategoryPanel categoryPanel = new CategoryPanel(frame, this, game, c, picker);
             centerPanel.add(categoryPanel);
         }
     }
@@ -121,7 +120,7 @@ public class GamePanel extends JPanel {
     // EFFECTS: add contestant info to the south panel, highlights the name of the contestant who is picking
     private void addContestantInfo() {
         for (Contestant c : game.getContestants()) {
-            ContestantInfoPanel contestantInfoPanel = new ContestantInfoPanel(this, c);
+            ContestantInfoPanel contestantInfoPanel = new ContestantInfoPanel(this, c, picker);
             southPanel.add(contestantInfoPanel);
         }
     }
@@ -132,19 +131,6 @@ public class GamePanel extends JPanel {
         this.picker = picker;
         remove(southPanel);
         addSouthPanel();
-    }
-
-    // getters
-    public JFrame getFrame() {
-        return frame;
-    }
-
-    public Contestant getPicker() {
-        return picker;
-    }
-
-    public Game getGame() {
-        return game;
     }
 
     // Represents an ActionListener which listens for when the quit button is pressed

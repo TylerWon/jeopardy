@@ -2,7 +2,6 @@ package ui.gui.game.gamepanel.subsections;
 
 import model.Game;
 import persistence.JsonWriter;
-import ui.gui.game.gamepanel.GamePanel;
 
 import javax.swing.*;
 import java.io.FileNotFoundException;
@@ -12,20 +11,22 @@ public class QuitDialog {
 
     private static final String DATA_STORE = "./data/savedGame.json";
 
-    private GamePanel container;
+    private JPanel container;
 
     private JsonWriter jsonWriter;
+    private Game game;
 
     // EFFECTS: constructs a dialog which asks the user if they want to save before quitting
-    public QuitDialog(GamePanel container, Game game) {
+    public QuitDialog(JPanel container, Game game) {
         initializeFields(container, game);
         displayDialog();
     }
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(GamePanel container, Game game) {
+    private void initializeFields(JPanel container, Game game) {
         this.container = container;
+        this.game = game;
         jsonWriter = new JsonWriter(DATA_STORE);
     }
 
@@ -51,7 +52,7 @@ public class QuitDialog {
     private void saveGame() {
         try {
             jsonWriter.open();
-            jsonWriter.write(container.getGame());
+            jsonWriter.write(game);
             jsonWriter.close();
             displayGoodbyeMessage("Game saved. Thanks for playing!");
         } catch (FileNotFoundException e) {

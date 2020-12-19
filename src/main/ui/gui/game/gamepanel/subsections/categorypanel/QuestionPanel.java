@@ -4,6 +4,7 @@ import model.Category;
 import model.Contestant;
 import model.Game;
 import model.Question;
+import ui.gui.game.gamepanel.GamePanel;
 import ui.gui.gameover.GameOverFrame;
 
 import javax.swing.*;
@@ -31,14 +32,19 @@ public class QuestionPanel extends JPanel {
     private JPanel centerPanel;
     private JPanel southPanel;
     private KeyListener keyListener;
-    private CategoryPanel container;
+    private JPanel container;
+    private GamePanel parentContainer;
+    private JFrame frame;
 
     private Game game;
+    private Category category;
     private Question question;
+    private Contestant picker;
 
     // EFFECTS: constructs a new question panel which displays the question chosen by the user
-    public QuestionPanel(CategoryPanel container, Game game, Question question) {
-        initializeFields(container, game, question);
+    public QuestionPanel(JFrame frame, JPanel container, GamePanel parentContainer, Game game,
+                         Category category, Question question, Contestant picker) {
+        initializeFields(frame, container, parentContainer, game, category, question, picker);
         initializeGraphics();
         addCenterPanel();
         addSouthPanel();
@@ -46,18 +52,24 @@ public class QuestionPanel extends JPanel {
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(CategoryPanel container, Game game, Question question) {
+    private void initializeFields(JFrame frame, JPanel container, GamePanel parentContainer, Game game,
+                                  Category category, Question question, Contestant picker) {
+
+        this.frame = frame;
         this.container = container;
-        keyListener = new BuzzInListener();
+        this.parentContainer = parentContainer;
         this.game = game;
+        this.category = category;
         this.question = question;
+        this.picker = picker;
+        keyListener = new BuzzInListener();
     }
 
     // MODIFIES: this
     // EFFECTS: initializes graphics for this
     private void initializeGraphics() {
         setLayout(new BorderLayout(20, 20));
-        container.getFrame().addKeyListener(keyListener);
+        frame.addKeyListener(keyListener);
     }
 
     // MODIFIES: this
@@ -136,10 +148,10 @@ public class QuestionPanel extends JPanel {
     // MODIFIES: this
     // EFFECTS: remove KeyListener, update game panel graphics, set game panel to visible
     public void moveToGamePanel(Contestant contestant) {
-        container.getFrame().removeKeyListener(keyListener);
-        container.getContainer().update(contestant);
+        frame.removeKeyListener(keyListener);
+        parentContainer.update(contestant);
         setVisible(false);
-        container.getContainer().setVisible(true);
+        parentContainer.setVisible(true);
     }
 
     // EFFECTS: if the number of categories completed == 5, end the game,
@@ -194,10 +206,10 @@ public class QuestionPanel extends JPanel {
 
             if (isCorrect(question, answer)) {
                 playSound(CORRECT_SOUND);
-                correctAnswer(container.getCategory(), question, contestant);
+                correctAnswer(category, question, contestant);
 
                 if (isGameOver()) {
-                    container.getFrame().dispose();
+                    frame.dispose();
                     new GameOverFrame(game);
                 } else {
                     correctNotification(contestant);
@@ -300,11 +312,11 @@ public class QuestionPanel extends JPanel {
                 displayAnswer();
 
                 if (isGameOver()) {
-                    container.getFrame().dispose();
+                    frame.dispose();
                     new GameOverFrame(game);
                 } else {
                     pickNotification();
-                    moveToGamePanel(container.getPicker());
+                    moveToGamePanel(picker);
                 }
             }
         }
@@ -313,8 +325,6 @@ public class QuestionPanel extends JPanel {
         // EFFECTS: sets question to answered and moves it to the list of
         //          answered questions in category
         private void updateCategory() {
-            Category category = container.getCategory();
-
             question.setAnswered(true);
             category.moveToAnsweredQuestions(question);
         }
@@ -329,7 +339,7 @@ public class QuestionPanel extends JPanel {
         // EFFECTS: notifies the user of which contestant is picking
         private void pickNotification() {
             JOptionPane.showMessageDialog(QuestionPanel.this,
-                    container.getPicker().getName() + ", it is your pick!",
+                    picker.getName() + ", it is your pick!",
                     null, JOptionPane.PLAIN_MESSAGE);
         }
     }

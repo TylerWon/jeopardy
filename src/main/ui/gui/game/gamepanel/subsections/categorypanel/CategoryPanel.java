@@ -2,6 +2,7 @@ package ui.gui.game.gamepanel.subsections.categorypanel;
 
 import model.Category;
 import model.Contestant;
+import model.Game;
 import model.Question;
 import ui.gui.game.gamepanel.GamePanel;
 
@@ -16,7 +17,7 @@ import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 
-// Represents a panel which displays the categories
+// Represents a panel which displays a category
 public class CategoryPanel extends JPanel {
 
     private static final Font CATEGORY_FONT = new Font("", Font.BOLD, 14);
@@ -30,12 +31,15 @@ public class CategoryPanel extends JPanel {
     private JButton eightHundredButton;
     private JButton oneThousandButton;
     private GamePanel container;
+    private JFrame frame;
 
     private Category category;
+    private Contestant picker;
+    private Game game;
 
-    // EFFECTS: constructs a panel which displays the categories
-    public CategoryPanel(GamePanel container, Category category) {
-        initializeFields(container, category);
+    // EFFECTS: constructs a panel which displays a category
+    public CategoryPanel(JFrame frame, GamePanel container, Game game, Category category, Contestant picker) {
+        initializeFields(frame, container, game, category, picker);
         initializeGraphics();
         addCategory();
         addQuestions();
@@ -43,9 +47,12 @@ public class CategoryPanel extends JPanel {
 
     // MODIFIES: this
     // EFFECTS: initializes the fields for this
-    private void initializeFields(GamePanel container, Category category) {
+    private void initializeFields(JFrame frame, GamePanel container, Game game, Category category, Contestant picker) {
+        this.frame = frame;
         this.container = container;
+        this.game = game;
         this.category = category;
+        this.picker = picker;
     }
 
     // MODIFIES: this
@@ -192,32 +199,13 @@ public class CategoryPanel extends JPanel {
         }
     }
 
-    // EFFECTS: returns the frame this is in
-    public JFrame getFrame() {
-        return container.getFrame();
-    }
-
-    // EFFECTS: returns the picker
-    public Contestant getPicker() {
-        return container.getPicker();
-    }
-
-    // getters
-    public GamePanel getContainer() {
-        return container;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
     // Represents an ActionListener which listens for when the category button is pressed
     private class CategoryButtonListener implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == categoryButton) {
-                new CategoryInfoDialog(CategoryPanel.this, category);
+                new CategoryInfoDialog(container, category);
             }
         }
     }
@@ -284,13 +272,11 @@ public class CategoryPanel extends JPanel {
         // MODIFIES: CategoryPanel
         // EFFECTS: updates categories picked by contestant, disables button, displays question
         private void moveToQuestion(JButton button, Question question) {
-            Contestant picker = container.getPicker();
-
             picker.updateCategoriesPicked(category.getName());
             button.setEnabled(false);
             container.setVisible(false);
 
-            container.getFrame().add(new QuestionPanel(CategoryPanel.this, container.getGame(), question));
+            frame.add(new QuestionPanel(frame, CategoryPanel.this, container, game, category, question, picker));
         }
     }
 }

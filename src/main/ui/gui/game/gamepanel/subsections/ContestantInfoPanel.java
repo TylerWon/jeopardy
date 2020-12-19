@@ -1,7 +1,6 @@
 package ui.gui.game.gamepanel.subsections;
 
 import model.Contestant;
-import ui.gui.game.gamepanel.GamePanel;
 
 import javax.swing.*;
 import javax.swing.border.MatteBorder;
@@ -14,13 +13,14 @@ public class ContestantInfoPanel extends JPanel {
 
     private JLabel name;
     private JLabel earnings;
-    private GamePanel container;
+    private JPanel container;
 
     private Contestant contestantToAdd;
+    private Contestant picker;
 
     // EFFECTS: constructs a new panel which displays the contestant name and earnings
-    public ContestantInfoPanel(GamePanel container, Contestant contestantToAdd) {
-        initializeFields(container, contestantToAdd);
+    public ContestantInfoPanel(JPanel container, Contestant contestantToAdd, Contestant picker) {
+        initializeFields(container, contestantToAdd, picker);
         initializeGraphics();
         addName();
         addEarnings();
@@ -28,9 +28,10 @@ public class ContestantInfoPanel extends JPanel {
 
     // MODIFIES: this
     // EFFECTS: initializes fields for this
-    private void initializeFields(GamePanel container, Contestant contestantToAdd) {
+    private void initializeFields(JPanel container, Contestant contestantToAdd, Contestant picker) {
         this.container = container;
         this.contestantToAdd = contestantToAdd;
+        this.picker = picker;
     }
 
     // MODIFIES: this
@@ -47,7 +48,7 @@ public class ContestantInfoPanel extends JPanel {
         name.setHorizontalAlignment(JLabel.CENTER);
         name.setFont(CONTESTANT_FONT);
 
-        if (contestantToAdd.equals(container.getPicker())) {
+        if (contestantToAdd.equals(picker)) {
             name.setFont(new Font("", Font.BOLD, 16));
         }
 
