@@ -26,14 +26,19 @@ interesting information.
 I created this project for the software construction course (CPSC 210) that I took in 2020 Winter - Term 1. The project
 consisted of four phases which had to be completed throughout the term. Each phase was structured around a *user story*,
 which was essentially a feature that a user would want in the program. For instance, phase two of the project involved
-adding data persistence to the application, so some of the user stories I thought of were: 
+adding data persistence to the appplication, so some of the user stories I thought of were: 
 
 1. As a user, I want to have the option to save my game before quitting
 2. As a user, I want to have the option to load my saved game instead of creating a new game
 
-This project was a great opportunity to apply the knowledge I learned in class to develop something that I am interested
-in and have a passion to work on. In particular, the challenge of creating a multiplayer application enticed me, as I 
-did not have experience in this field.
+I decided to create this project because I have fond memories of watching Jeopardy on T.V. with my family as a child.
+I rarely ever succeeded in answering any of the questions correctly, however, I still enjoyed the competitiveness and 
+overall atmosphere the show brought to my family whenever we were watching it. As such, one of my main motives for 
+creating this project was to restore some of this nostalgia from my younger years. The interactiveness of the 
+application compared to just watching the show on television would reignite some of those old feelings, while also 
+generating a more competitive environment. In addition, this project was a great opportunity to apply the knowledge I 
+learned in class to develop something that I am interested in and have a passion to work on. In particular, the 
+challenge of creating a multiplayer application enticed me, as I did not have experience in this field.
 
 ## License
 > You can check out the full license [here](https://github.com/TylerWon/jeopardy/blob/master/LICENSE)
